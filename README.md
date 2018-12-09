@@ -2,15 +2,43 @@
 
 ## About
 
-Tensorflow is an open source library for large-scale machine learning and numerical computation projects in Python.  Tensorflow handles the details of neural networking allowing a developer to focus more on the usage of a neural net as opposed to the implementation of the neural net.  This is useful for image recognition, natural language processing, digit classification, along with many other applications.
+Tensorflow is an open source library for large-scale machine learning and numerical computation projects in python.  Tensorflow handles the details of neural networking allowing a developer to focus more on the usage of a neural net as opposed to the implementation of the neural net.  This is useful for image recognition, natural language processing, digit classification, along with many other applications.
 
-Keras is a high-level API meant to run on top of TensorFlow, CNTK, or Theano.  It is made for user-friendliness as it seeks to minimize the number of user interactions while presenting actionable feedback upon error.  Keras runs on the CPU and the GPU along with supporting convolutional networks, recurrent networks or a combination of the two.
-
-Tensorflow 2.0 introduces eager execution which gives first-class status to the built-in Keras modules which are used in this tutorial. The eager execution model allows developers to iterate more quickly through different model architectures with less code than previous, more verbose and lower-level Tensorflow code allowed for while still providing just as much flexibility in model function.
+Keras is a high level API ment to run on top of TensorFlow, CNTK, or Theano.  It is made for user friendliness as it seeks to minimize the number of user interactions while presenting actionable feedback upon error.  Keras runs on the CPU and the GPU along with supporting convolutional networks, recurrent networks or a combination of the two.
 
 ## Installation
 
-To run this tutorial, Python 2 or 3 must be installed along with the `tensorflow` and `numpy` packages. To install them via `pip`, simply run `pip install tensorflow numpy`.
+Before installing tensorflow, make sure your device is running the following 64bit OS:
+#### * Ubuntu 16.04 or later * macOS 10.12.6 (Sierra) or later (no GPU support)
+#### * Windows 7 or later    * Raspbian 9.0 or later
+
+### Installing ternsorflow by pip command
+
+Current release for CPU-only:
+$ pip install tensorflow
+
+Nightly build for CPU-only(unstable)
+$ pip install tf-nightly
+
+GPU package for CUDA-enbaled GPU cards
+$ pip install tensorflow-gpu
+
+Nightly build with GPU support(unstable)
+$ pip install tf-nightly-gpu
+
+Tenerflow has can running with or without the GPU support. But in order to have the GPU support, the device needs to have a CUDA-enabled GPU card(https://www.tensorflow.org/install/gpu). 
+
+Also the GPU version needs the support of CUDA. You can install CUDA following the instruction on the offcial website of CUDA:
+https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html
+
+Additional to the installation of tensorflow, you also need numpy as an important package for the pre-process procedure before utilizing tensorflow.
+
+### To install NumPy
+Install NumPy by pip command:
+$ python -m pip --user numpy
+
+There are also some other useful SciPy packages like NumPy, you can get it following the instruction of the official website of SciPy https://www.scipy.org/install.html
+
 
 ## Training MNIST
 
