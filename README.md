@@ -10,11 +10,14 @@ Tensorflow 2.0 introduces eager execution which gives first-class status to the 
 
 ## Installation
 
-Before installing tensorflow, make sure your device is running the following 64bit OS:
-#### * Ubuntu 16.04 or later * macOS 10.12.6 (Sierra) or later (no GPU support)
-#### * Windows 7 or later    * Raspbian 9.0 or later
+Before installing Tensorflow, make sure your device is running one of the following 64-bit operating systems:
 
-### Installing ternsorflow by pip command
+#### * Ubuntu 16.04 or later 
+#### * macOS 10.12.6 (Sierra) or later (no GPU support)
+#### * Windows 7 or later    
+#### * Raspbian 9.0 or later
+
+### Installing via `pip`
 
 Current release for CPU-only:
 ```python
@@ -32,17 +35,19 @@ Nightly build with GPU support(unstable)
 ```python
 $ pip install tf-nightly-gpu
 ```
-Tenerflow has can running with or without the GPU support. But in order to have the GPU support, the device needs to have a CUDA-enabled GPU card(https://www.tensorflow.org/install/gpu). 
+Tenerflow can run with or without the GPU support. In order to have GPU support, the device must have a CUDA-enabled GPU card (https://www.tensorflow.org/install/gpu). 
 
 Also the GPU version needs the support of CUDA. You can install CUDA following the instruction on the offcial website of CUDA:
 https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html
 
-Additional to the installation of tensorflow, you also need numpy as an important package for the pre-process procedure before utilizing tensorflow.
+In addition to Tensorflow, you will also need NumPy for pre-processing the training data.
 
-### To install NumPy
-Install NumPy by pip command:
+### NumPy Installation 
+
+Install NumPy via `pip`:
+
 ```python
-$ python -m pip --user numpy
+$ pip install numpy
 ```
 There are also some other useful SciPy packages like NumPy, you can get it following the instruction of the official website of SciPy https://www.scipy.org/install.html
 
