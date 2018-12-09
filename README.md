@@ -6,7 +6,7 @@ Tensorflow is an open source library for large-scale machine learning and numeri
 
 Keras is a high-level API meant to run on top of TensorFlow, CNTK, or Theano.  It is made for user-friendliness as it seeks to minimize the number of user interactions while presenting actionable feedback upon error.  Keras runs on the CPU and the GPU along with supporting convolutional networks, recurrent networks or a combination of the two.
 
-Tensorflow 2.0 introduces eager execution which gives first-class status to the built-in Keras modules which are used in this tutorial. The eager execution model allows developers to iterate more quickly through different model architectures than previous, more verbose and lower-level Tensorflow code allowed for while still providing just as much flexibility in model function.
+Tensorflow 2.0 introduces eager execution which gives first-class status to the built-in Keras modules which are used in this tutorial. The eager execution model allows developers to iterate more quickly through different model architectures with less code than previous, more verbose and lower-level Tensorflow code allowed for while still providing just as much flexibility in model function.
 
 ## Installation
 
