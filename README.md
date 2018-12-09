@@ -1,5 +1,7 @@
 # Tensorflow Tutorial
 
+Authors: Ben Bond, Zhe Luan, Lane Lucas, Zach McGohan, Stephen Wan
+
 ## About
 
 Tensorflow is an open source library for large-scale machine learning and numerical computation projects in Python.  Tensorflow handles the details of neural networking allowing a developer to focus more on the usage of a neural net as opposed to the implementation of the neural net.  This is useful for image recognition, natural language processing, digit classification, along with many other applications.
