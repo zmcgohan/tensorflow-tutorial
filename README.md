@@ -15,17 +15,21 @@ Before installing tensorflow, make sure your device is running the following 64b
 ### Installing ternsorflow by pip command
 
 Current release for CPU-only:
+```python
 $ pip install tensorflow
-
+```
 Nightly build for CPU-only(unstable)
+```python
 $ pip install tf-nightly
-
+```
 GPU package for CUDA-enbaled GPU cards
+```python
 $ pip install tensorflow-gpu
-
+```
 Nightly build with GPU support(unstable)
+```python
 $ pip install tf-nightly-gpu
-
+```
 Tenerflow has can running with or without the GPU support. But in order to have the GPU support, the device needs to have a CUDA-enabled GPU card(https://www.tensorflow.org/install/gpu). 
 
 Also the GPU version needs the support of CUDA. You can install CUDA following the instruction on the offcial website of CUDA:
@@ -35,8 +39,9 @@ Additional to the installation of tensorflow, you also need numpy as an importan
 
 ### To install NumPy
 Install NumPy by pip command:
+```python
 $ python -m pip --user numpy
-
+```
 There are also some other useful SciPy packages like NumPy, you can get it following the instruction of the official website of SciPy https://www.scipy.org/install.html
 
 
