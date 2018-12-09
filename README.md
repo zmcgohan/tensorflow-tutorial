@@ -2,7 +2,9 @@
 
 ## About
 
-Tensorflow is ...
+Tensorflow is an open source library for large-scale machine learning and numerical computation projects in python.  Tensorflow handles the details of neural networking allowing a developer to focus more on the usage of a neural net as opposed to the implementation of the neural net.  This is useful for image recognition, natural language processing, digit classification, along with many other applications.
+
+Keras is a high level API ment to run on top of TensorFlow, CNTK, or Theano.  It is made for user friendliness as it seeks to minimize the number of user interactions while presenting actionable feedback upon error.  Keras runs on the CPU and the GPU along with supporting convolutional networks, recurrent networks or a combination of the two.
 
 ## Installation
 
