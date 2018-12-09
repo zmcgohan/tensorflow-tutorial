@@ -10,7 +10,7 @@ Tensorflow 2.0 introduces eager execution which gives first-class status to the 
 
 ## Installation
 
-To install  
+To run this tutorial, Python 2 or 3 must be installed along with the `tensorflow` and `numpy` packages. To install them via `pip`, simply run `pip install tensorflow numpy`.
 
 ## Training MNIST
 
