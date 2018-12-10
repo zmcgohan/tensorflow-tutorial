@@ -14,27 +14,27 @@ Tensorflow 2.0 introduces eager execution which gives first-class status to the 
 
 Before installing Tensorflow, make sure your device is running one of the following 64-bit operating systems:
 
-#### * Ubuntu 16.04 or later 
-#### * macOS 10.12.6 (Sierra) or later (no GPU support)
-#### * Windows 7 or later    
-#### * Raspbian 9.0 or later
+* Ubuntu 16.04 or later 
+* macOS 10.12.6 (Sierra) or later (no GPU support)
+* Windows 7 or later    
+* Raspbian 9.0 or later
 
 ### Installing via `pip`
 
 Current release for CPU-only:
-```python
+```shell
 $ pip install tensorflow
 ```
 Nightly build for CPU-only(unstable)
-```python
+```shell
 $ pip install tf-nightly
 ```
 GPU package for CUDA-enbaled GPU cards
-```python
+```shell
 $ pip install tensorflow-gpu
 ```
 Nightly build with GPU support(unstable)
-```python
+```shell
 $ pip install tf-nightly-gpu
 ```
 Tenerflow can run with or without the GPU support. In order to have GPU support, the device must have a CUDA-enabled GPU card (https://www.tensorflow.org/install/gpu). 
@@ -48,7 +48,7 @@ In addition to Tensorflow, you will also need NumPy for pre-processing the train
 
 Install NumPy via `pip`:
 
-```python
+```shell
 $ pip install numpy
 ```
 There are also some other useful SciPy packages like NumPy, you can get it following the instruction of the official website of SciPy https://www.scipy.org/install.html
